@@ -1,0 +1,93 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar class="actionBar">
+        <StackLayout orientation="horizontal">
+            <Label text="Bakery Shop" fontSize="24" style="color: black;" fontWeight="bold" verticalAlignment="center" class="actionBarLabel"/>
+        </StackLayout>
+    </ActionBar>
+    <ScrollView scroll="onScroll">
+        <StackLayout class="p-4">
+                <Image src="https://s4.gifyu.com/images/mylogoe555fd64aaff9579.png"/>
+                <Label text="Savour your taste buds" class = "text-center" style="font-size: 30px; background-color: #FABE70; color: black; width:85%; margin-bottom: 250px;"/>
+                <!-- <Button text="TAP" tap="{{ onTap }}" class="-primary" />
+                <Label text="{{ message }}" class="text-lg text-center text-gray-400" textWrap="true" /> -->
+                <Image src="https://s4.gifyu.com/images/chocolatesplash.md.png"/>
+                <!-- Red Forest Cake -->
+                <GridLayout columns="350, 350" rows="250, 250">
+                    <label text="Red Forest Cake" row="0" col="0" style="margin-top:70px; font-size: 30px; font-weight: bold; height: 80px">
+                    </label>
+                    <Image row="1" col="0" src="https://bit.ly/3VN4DPd"/>
+                </GridLayout>
+                <Button text="Add to cart" tap="{{ onTapAdd }}" style="width: 50%"/>
+                <Button text="Remove item" tap="{{ onTapRemove }}" style="width: 50%"/>
+                <Label text="{{ message }}" class="text-lg text-center text-gray-400" textWrap="true" id="{{visibleLabel}}"/>
+
+                <!-- Black Forest Cake -->
+                <GridLayout columns="350, 350" rows="250, 250">
+                    <label text="Black Forest Cake" row="0" col="0" style="margin-top:70px; font-size: 30px; font-weight: bold; height: 80px">
+                    </label>
+                    <Image row="1" col="0" src="https://bit.ly/3CUlw1y"/>
+                </GridLayout>
+                <Button text="Add to cart" tap="{{ onTapAdd }}" style="width: 50%"/>
+                <Button text="Remove item" tap="{{ onTapRemove }}" style="width: 50%"/>
+                <Label text="{{ message }}" class="text-lg text-center text-gray-400" textWrap="true" id="{{visibleLabel}}"/>
+
+                 <!-- Creamy Cup Cake -->
+                <GridLayout columns="350, 350" rows="250, 250">
+                    <label text="Creamy Cup Cake" row="0" col="0" style="margin-top:70px; font-size: 30px; font-weight: bold; height: 80px">
+                    </label>
+                    <Image row="1" col="0" src="https://bit.ly/3sgOkN4"/>
+                </GridLayout>
+                <Button text="Add to cart" tap="{{ onTapAdd }}" style="width: 50%"/>
+                <Button text="Remove item" tap="{{ onTapRemove }}" style="width: 50%"/>
+                <Label text="{{ message }}" class="text-lg text-center text-gray-400" textWrap="true" id="{{visibleLabel}}"/>
+
+                <!--Chocolate muffin -->
+                <GridLayout columns="350, 350" rows="250, 250">
+                    <label text="Chocolate muffin" row="0" col="0" style="margin-top:70px; font-size: 30px; font-weight: bold; height: 80px">
+                    </label>
+                    <Image row="1" col="0" src="https://bit.ly/3Diz7kW"/>
+                </GridLayout>
+                <Button text="Add to cart" tap="{{ onTapAdd }}" style="width: 50%"/>
+                <Button text="Remove item" tap="{{ onTapRemove }}" style="width: 50%"/>
+                <Label text="{{ message }}" class="text-lg text-center text-gray-400" textWrap="true" id="{{visibleLabel}}"/>
+
+                <!--Chocolate Truffle -->
+                <GridLayout columns="350, 350" rows="250, 250">
+                    <label text="Chocolate Truffle" row="0" col="0" style="margin-top:70px; font-size: 30px; font-weight: bold; height: 80px">
+                    </label>
+                    <Image row="1" col="0" src="https://bit.ly/3MR7ank"/>
+                </GridLayout>
+                <Button text="Add to cart" tap="{{ onTapAdd }}" style="width: 50%"/>
+                <Button text="Remove item" tap="{{ onTapRemove }}" style="width: 50%"/>
+                <Label text="{{ message }}" class="text-lg text-center text-gray-400" textWrap="true" id="{{visibleLabel}}"/>
+
+                <!--Lava Cake -->
+                <GridLayout columns="350, 350" rows="250, 250">
+                    <label text="Lava Cake" row="0" col="0" style="margin-top:70px; font-size: 30px; font-weight: bold; height: 80px">
+                    </label>
+                    <Image row="1" col="0" src="https://bit.ly/3CTCbm4"/>
+                </GridLayout>
+                <Button text="Add to cart" tap="{{ onTapAdd }}" style="width: 50%"/>
+                <Button text="Remove item" tap="{{ onTapRemove }}" style="width: 50%"/>
+                <Label text="{{ message }}" class="text-lg text-center text-gray-400" textWrap="true" id="{{visibleLabel}}"/>
+
+
+                <!--Chocolate Brownie -->
+                <GridLayout columns="350, 350" rows="250, 250">
+                    <label text="Chocolate Brownie" row="0" col="0" style="margin-top:70px; font-size: 30px; font-weight: bold; height: 80px">
+                    </label>
+                    <Image row="1" col="0" src="https://bit.ly/3yUJW9V"/>
+                </GridLayout>
+                <Button text="Add to cart" tap="{{ onTapAdd }}" style="width: 50%"/>
+                <Button text="Remove item" tap="{{ onTapRemove }}" style="width: 50%"/>
+                <Label text="{{ message }}" class="text-lg text-center text-gray-400" textWrap="true" id="{{visibleLabel}}"/>
+
+                
+                <!-- <Labe text="Please tap me" class="text-3xl text-center" />
+                <Button text="TAP" tap="{{ onTap }}" class="-primary" />
+                <Label text="{{ message }}" class="text-lg text-center text-gray-400" textWrap="true" /> -->
+        </StackLayout>
+        
+        
+    </ScrollView>
+</Page>

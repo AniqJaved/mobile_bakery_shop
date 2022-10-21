@@ -1,0 +1,32 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Button.-primary {
+  color: brown;
+  font-size: 18;
+}
+
+actionBar {
+  background-color: #f5ca89;
+  text-align: center;
+}
+
+actionBarLabel {
+  background-color: #f5ca89;
+  color: white;
+}
+
+imageLabel {
+  font-size: 100px;
+}
+
+#visibleLabelHidden {
+  visibility: hidden;
+}
+#visibleLabelShow {
+  visibility: visible;
+}
