@@ -46,36 +46,29 @@ Here are the steps to be taken after that:
 
 1. Clone the repository:
 
-git clone https://github.com/AniqJaved/bakeryshop.git
+git clone https://github.com/AniqJaved/mobile_bakery_shop
 
 
 2. Change directory:
     ```bash
-    cd bakeryshop
+    cd mobile_bakery_shop
     ```
 3. Install dependencies
     ```bash
-    cd my-medusa-store
-    yarn install
+    npm install
     ```
-4. Start the server
+
+4. Run project
     ```bash
-    medusa develop
-    ```
-5. Change directory , install dependencies and start the store-front
-    ```bash
-    cd ..
-    cd my-store-front
-    yarn install
-    yarn dev
+    npm start
     ```
 
 
 ## Resources
 
 
-- [Medusa’s GitHub repository](https://github.com/medusajs/medusa)
-- [How to Create Services](https://docs.medusajs.com/advanced/backend/services/create-service)
-- [NextJs](https://nextjs.org/)
+- [Nativescript’s docs](https://docs.nativescript.org/)
+- [Javascript's docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [StackBlitz](https://stackblitz.com/)
 - [Readme.so](https://readme.so/editor)
 
